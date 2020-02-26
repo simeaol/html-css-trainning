@@ -1,0 +1,7 @@
+.about-band-image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 50%;
+}

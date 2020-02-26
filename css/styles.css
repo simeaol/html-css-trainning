@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+* {
+    box-sizing: border-box;/*trick para navegador respeitar os valores definidos no margin e padding, sem ela o cálculo da área é feita usando margin+padding > width definido*/
+    font-family: Raleway;
+    color: #777;
+    font-size: 15px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+nav li {
+
+    display: inline;
+}
+
+.nav a {
+    display: inline;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+    
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-radius: px solid rgb(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding-top: 0;
+    padding-right: 5%;
+    padding-bottom: 0;
+    padding-left: 5%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("../images//HeaderBackground.jpg");
+    background-blend-mode: multiply;/*Permite combiner color X background image, pois por defautl color e background são sobrepostos quando se usa em conjunto*/
+    background-size: cover;/*avisa o navegador a expandir o backfound o máximo que poder*/
+    padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.3em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #2D9CDB;
+}
+
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+    list-style: none;
+}
+
+.footer-nav {
+    display: flex;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}

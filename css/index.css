@@ -1,0 +1,64 @@
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px #2D9CDB solid;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-header-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+}
+
+.btn-header-play:hover  {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.tour-row {
+    border-bottom: 1px black solid;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row :last-child {/*manipula o último elemento que possui a classe tour-row*/
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-address {
+    width: 42%;
+}
+
+.btn-tour {
+    max-width: 19%;
+}
